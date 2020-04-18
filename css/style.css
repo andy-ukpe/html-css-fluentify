@@ -1,0 +1,93 @@
+/*regole generali*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Verdana"
+}
+/* fine regole generali*/
+
+/*HEADER*/
+header{
+  height: 450px;
+  background-color: #0C325A;
+  float left;
+  color: #ffffff;
+  background-image: url(../img/background-header.png);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+}
+.container{
+  width: 85%;
+  margin: auto;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/**navigation**/
+header .navigation .col{
+  float: left;
+  margin-top: 16px;
+}
+header .navigation .logo{
+  width: 13%;
+}
+header .navigation .menu-left{
+  width: 47%;
+}
+header .navigation .menu-right{
+  width: 40%;
+  text-align: right;
+}
+header .navigation .menu{
+  display: inline-block;
+  margin-top: 16px;
+}
+header .navigation .menu li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+header .navigation .menu li a:hover{
+  color: orange;
+  border-color: orange;
+}
+header .navigation .menu li .login{
+  border: 1px solid white;
+  padding: 7px 12px;
+}
+header .navigation .menu li .item-green{
+  padding: 7px 12px;
+  background-color: lawngreen;
+  border-radius: 5px;
+}
+ul li{
+  list-style-type: none;
+  display: inline-block;
+  font
+}
+/*teaser*/
+header .teaser{
+  padding-top:100px;
+}
+header .teaser h1{
+  font-weight: 700;
+  font-size: 40px;
+}
+header .teaser a {
+  margin-top: 40px;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding:12px 12px;
+  background-color: lawngreen;
+  border-radius: 5px;
+}
+/*FINE HEADER*/
