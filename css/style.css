@@ -3,13 +3,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", "Verdana"
+  font-family: "Roboto", "Verdana";
 }
 /* fine regole generali*/
 
 /*HEADER*/
 header{
-  height: 450px;
+  height: 70vh;
   background-color: #0C325A;
   float left;
   color: #ffffff;
@@ -114,16 +114,14 @@ main .container p.subheadline{
 /***bullets***/
 
 main .bullets{
-width: 85%;
-margin:auto;
-}
-main .bullets>*{
-  float: left;
+  width: 85%;
+  margin:auto;
 }
 main .bullets .col{
   width: 375px;
   padding: 1%;
   text-align: center;
+  float: left;
 }
 main .bullets .col img{
   height:100px;
@@ -176,11 +174,12 @@ main .link .col.right.discover a{
 /*FOOTER*/
 footer{
   background-color: lightgrey;
-  height: 190px;
+  height: 30vh;
 }
 footer .container{
   width: 85%;
 }
+/***colonna***/
 footer .container .col{
   float: left;
 }
@@ -191,6 +190,7 @@ footer .container .col.left{
   width: 50%;
   font-size: 20px;
 }
+/***colonna centrale***/
 footer .container .col.center{
   width: 25%;
   color: #777;
@@ -206,6 +206,7 @@ footer .container .col.center p.selector{
 footer .container .col.center p.arrow{
   border-bottom: 1px solid darkgray;
 }
+/***colonna destra***/
 footer .container .col.right{
   width: 25%;
 }
