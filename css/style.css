@@ -14,7 +14,7 @@ header{
   float left;
   color: #ffffff;
   background-image: url(../img/background-header.png);
-  background-size: 800px;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: 110% 100%;
 }
@@ -73,7 +73,7 @@ ul li{
 }
 /***teaser***/
 header .teaser{
-  padding-top:100px;
+  padding-top:10%;
 }
 header .teaser h1{
   font-weight: 700;
@@ -174,7 +174,7 @@ main .link .col.right.discover a{
 /*FOOTER*/
 footer{
   background-color: lightgrey;
-  height: 30vh;
+  height: 35vh;
 }
 footer .container{
   width: 85%;
