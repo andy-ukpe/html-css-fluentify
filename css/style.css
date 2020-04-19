@@ -27,7 +27,7 @@ header{
   display: table;
   clear: both;
 }
-/**navigation**/
+/***navigation***/
 header .navigation .col{
   float: left;
   margin-top: 16px;
@@ -71,7 +71,7 @@ ul li{
   display: inline-block;
   font
 }
-/*teaser*/
+/***teaser***/
 header .teaser{
   padding-top:100px;
 }
@@ -91,3 +91,138 @@ header .teaser a {
   border-radius: 5px;
 }
 /*FINE HEADER*/
+
+/*INIZIO MAIN*/
+/***linea***/
+main .line{
+  height: 100px;
+  background-color: lightgrey;
+}
+main .container{
+  padding: 20px;
+}
+main .container>*{
+  text-align: center;
+}
+main .container h2{
+  font-weight: 700;
+  color: black;
+}
+main .container p.subheadline{
+  color: grey;
+}
+/***bullets***/
+
+main .bullets{
+width: 85%;
+margin:auto;
+}
+main .bullets>*{
+  float: left;
+}
+main .bullets .col{
+  width: 375px;
+  padding: 1%;
+  text-align: center;
+}
+main .bullets .col img{
+  height:100px;
+}
+main .bullets .col h3{
+  color: lawngreen;
+  padding-bottom: 5%;
+}
+main .bullets .col p{
+  padding-top:5%;
+  line-height: 25px;
+  color: #777;
+  font-size: 12px;
+}
+main .bullets .col hr.rule.text{
+  width: 20%;
+  margin:auto;
+}
+/***rule center***/
+main hr.rule.center{
+  width: 95%;
+  margin: auto;
+}
+/***link***/
+main .link{
+  width: 85%;
+  margin: auto;
+}
+main .link .col{
+  width: 50%;
+  float: left;
+  padding-top: 5%;
+}
+main .link .col.right.discover,h3,p{
+  padding-bottom: 2%;
+  line-height: 25px;
+}
+main .link .col.right.discover h3{
+  font-size: 25px;
+}
+main .link .col.right.discover p{
+  color: #777;
+  font-size: 13px;
+}
+main .link .col.right.discover a{
+  font-size: 13px;
+}
+/*FINE MAIN*/
+
+/*FOOTER*/
+footer{
+  background-color: lightgrey;
+  height: 190px;
+}
+footer .container{
+  width: 85%;
+}
+footer .container .col{
+  float: left;
+}
+footer .container .col{
+  padding-top: 6%;
+}
+footer .container .col.left{
+  width: 50%;
+  font-size: 20px;
+}
+footer .container .col.center{
+  width: 25%;
+  color: #777;
+}
+footer .container .col.center p{
+  display: inline-block;
+  padding:3%;
+}
+footer .container .col.center p.selector{
+  border-bottom: 1px solid darkgray;
+  padding-right: 35%;
+}
+footer .container .col.center p.arrow{
+  border-bottom: 1px solid darkgray;
+}
+footer .container .col.right{
+  width: 25%;
+}
+footer .container .col.right .button{
+  text-align: center;
+  color: white;
+  background-color: lawngreen;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+footer .container .col.right .button.plan p{
+  margin: 15px 12px;
+}
+footer .container .col.right .button.help p{
+  margin: 7px 6px;
+}
+footer .container .col.right .button:hover{
+  color: orange;
+}
+/*FINE FOOTER*/
