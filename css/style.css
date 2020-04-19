@@ -95,7 +95,7 @@ header .teaser a {
 /*INIZIO MAIN*/
 /***linea***/
 main .line{
-  height: 100px;
+  height: 20%;
   background-color: lightgrey;
 }
 main .container{
